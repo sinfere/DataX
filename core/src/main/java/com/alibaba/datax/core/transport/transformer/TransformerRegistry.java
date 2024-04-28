@@ -54,6 +54,11 @@ public class TransformerRegistry {
 
         for (final String each : paths) {
             try {
+                if (registedTransformer.containsKey(each)) {
+                    LOG.info(String.format("skip transformer(%s), already loaded", each));
+                    continue;
+                }
+
                 if (transformers == null || transformers.contains(each)) {
                     loadTransformer(each);
                 }
