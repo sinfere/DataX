@@ -156,14 +156,8 @@ local.properties
 .scala_dependencies
 .worksheet
 .project
-<<<<<<< HEAD
 .classpath
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 42f1dff (feat: update build path)
 .mvn
-=======
-.classpath
->>>>>>> 22b66c001d483ccedf3d81a10a78829806abbad8
+
+
